@@ -1,0 +1,34 @@
+name: CivilFold StudioNet proof
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  proof:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: |
+          mkdir -p .proof-journal
+          curl --fail --silent --show-error --retry 3 --max-time 35 'https://files.pythonhosted.org/packages/81/c4/34e93fe5f5429d7570ec1fa436f1986fb1f00c3e0f43a589fe2bbcd22c3f/pytz-2025.2-py2.py3-none-any.whl' --output .proof-journal/pytz.whl
+          echo '5ddf76296dd8c44c26eb8f4b6f35488f3ccbf6fbbd7adee0b7262d43f0ec2f00  .proof-journal/pytz.whl' | sha256sum --check
+          pip install -r requirements-dev.txt
+          genvm-lint download --version v0.2.16
+          genvm-lint check contracts/civil_fold.py
+          python -m pytest tests/direct -q
+          npm ci --no-audit --no-fund
+          node --test tests/rpc-preflight.test.cjs
+      - run: node scripts/bootstrap-ci.cjs
+      - run: node scripts/prove.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: studionet-proofs
+          path: proofs/*.json
