@@ -26,3 +26,5 @@ node --test tests/rpc-preflight.test.cjs
 ```
 
 The independent verifier uses standard-library ZIP extraction and `zoneinfo` to examine every UTC second in the proof cases. The StudioNet workflow checks a New York spring gap, a New York autumn fold, and a Lord Howe fold where the clocks change by 30 minutes. It verifies UTC membership at interval boundaries, exact signed calldata, the deployed source, and rejection of duplicate publication. Generic CLI receipt transport is reused under MIT.
+
+[StudioNet proofs](proofs/README.md) · [Submission text](SUBMISSION.md).

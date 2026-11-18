@@ -1,0 +1,920 @@
+{
+  "contract": "0x13ceE39267242815A048f7E099206F20c90a9344",
+  "deployment": "0x1648a5edc4d37bc52da3004bb1e3438fc3beda9980fcb2ea594eb4309fa0722f",
+  "revision": "fd1e74eb94b9e5ab056f68796782a6c643b718f0",
+  "source_sha256": "9b639959708077a2edeaa3171caf996ba7a75f87b1d6e28c300854f27a778771",
+  "archive_sha256": "5ddf76296dd8c44c26eb8f4b6f35488f3ccbf6fbbd7adee0b7262d43f0ec2f00",
+  "trace": [
+    {
+      "label": "deploy",
+      "hash": "0x1648a5edc4d37bc52da3004bb1e3438fc3beda9980fcb2ea594eb4309fa0722f",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0x1be2acb8020dadb28b864e168f59d3abe48429e7",
+      "args": {
+        "args": []
+      },
+      "error": null,
+      "projections": {
+        "gap": {},
+        "fold": {},
+        "half-hour": {}
+      }
+    },
+    {
+      "label": "gap",
+      "hash": "0xff201f65bd0461e5ff3dee83c1d37597a132e7ec74062a9bc86a6c5d90ab1da9",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0xba3c62e1d19593463caee367473e3c0851ab0d9d",
+      "args": {
+        "method": "publish",
+        "args": [
+          "America/New_York",
+          "2025-03-09T01:30:00",
+          "2025-03-09T03:30:00"
+        ]
+      },
+      "error": null,
+      "projections": {
+        "gap": {
+          "archive_sha256": "5ddf76296dd8c44c26eb8f4b6f35488f3ccbf6fbbd7adee0b7262d43f0ec2f00",
+          "branches": [
+            {
+              "local": [
+                1741483800,
+                1741485600
+              ],
+              "offset": -18000,
+              "utc": [
+                1741501800,
+                1741503600
+              ]
+            },
+            {
+              "local": [
+                1741489200,
+                1741491000
+              ],
+              "offset": -14400,
+              "utc": [
+                1741503600,
+                1741505400
+              ]
+            }
+          ],
+          "end": "2025-03-09T03:30:00",
+          "local_pieces": [
+            [
+              1741483800,
+              1741485600,
+              1
+            ],
+            [
+              1741485600,
+              1741489200,
+              0
+            ],
+            [
+              1741489200,
+              1741491000,
+              1
+            ]
+          ],
+          "missing_seconds": 3600,
+          "repeated_seconds": 0,
+          "source": "https://files.pythonhosted.org/packages/81/c4/34e93fe5f5429d7570ec1fa436f1986fb1f00c3e0f43a589fe2bbcd22c3f/pytz-2025.2-py2.py3-none-any.whl",
+          "start": "2025-03-09T01:30:00",
+          "tzif_sha256": "e9ed07d7bee0c76a9d442d091ef1f01668fee7c4f26014c0a868b19fe6c18a95",
+          "utc_intervals": [
+            [
+              1741501800,
+              1741505400
+            ]
+          ],
+          "utc_seconds": 3600,
+          "witness": {
+            "changes": [
+              [
+                1741503600,
+                -14400
+              ]
+            ],
+            "initial": [
+              1730613600,
+              -18000
+            ]
+          },
+          "zone": "America/New_York"
+        },
+        "fold": {},
+        "half-hour": {}
+      }
+    },
+    {
+      "label": "fold",
+      "hash": "0xfc029e0777cfc59a3149f68d9ad77716ff6d4d489d2218cd9ce0a7448ced57ff",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0x1be2acb8020dadb28b864e168f59d3abe48429e7",
+      "args": {
+        "method": "publish",
+        "args": [
+          "America/New_York",
+          "2025-11-02T01:15:00",
+          "2025-11-02T01:45:00"
+        ]
+      },
+      "error": null,
+      "projections": {
+        "gap": {
+          "archive_sha256": "5ddf76296dd8c44c26eb8f4b6f35488f3ccbf6fbbd7adee0b7262d43f0ec2f00",
+          "branches": [
+            {
+              "local": [
+                1741483800,
+                1741485600
+              ],
+              "offset": -18000,
+              "utc": [
+                1741501800,
+                1741503600
+              ]
+            },
+            {
+              "local": [
+                1741489200,
+                1741491000
+              ],
+              "offset": -14400,
+              "utc": [
+                1741503600,
+                1741505400
+              ]
+            }
+          ],
+          "end": "2025-03-09T03:30:00",
+          "local_pieces": [
+            [
+              1741483800,
+              1741485600,
+              1
+            ],
+            [
+              1741485600,
+              1741489200,
+              0
+            ],
+            [
+              1741489200,
+              1741491000,
+              1
+            ]
+          ],
+          "missing_seconds": 3600,
+          "repeated_seconds": 0,
+          "source": "https://files.pythonhosted.org/packages/81/c4/34e93fe5f5429d7570ec1fa436f1986fb1f00c3e0f43a589fe2bbcd22c3f/pytz-2025.2-py2.py3-none-any.whl",
+          "start": "2025-03-09T01:30:00",
+          "tzif_sha256": "e9ed07d7bee0c76a9d442d091ef1f01668fee7c4f26014c0a868b19fe6c18a95",
+          "utc_intervals": [
+            [
+              1741501800,
+              1741505400
+            ]
+          ],
+          "utc_seconds": 3600,
+          "witness": {
+            "changes": [
+              [
+                1741503600,
+                -14400
+              ]
+            ],
+            "initial": [
+              1730613600,
+              -18000
+            ]
+          },
+          "zone": "America/New_York"
+        },
+        "fold": {
+          "archive_sha256": "5ddf76296dd8c44c26eb8f4b6f35488f3ccbf6fbbd7adee0b7262d43f0ec2f00",
+          "branches": [
+            {
+              "local": [
+                1762046100,
+                1762047900
+              ],
+              "offset": -14400,
+              "utc": [
+                1762060500,
+                1762062300
+              ]
+            },
+            {
+              "local": [
+                1762046100,
+                1762047900
+              ],
+              "offset": -18000,
+              "utc": [
+                1762064100,
+                1762065900
+              ]
+            }
+          ],
+          "end": "2025-11-02T01:45:00",
+          "local_pieces": [
+            [
+              1762046100,
+              1762047900,
+              2
+            ]
+          ],
+          "missing_seconds": 0,
+          "repeated_seconds": 1800,
+          "source": "https://files.pythonhosted.org/packages/81/c4/34e93fe5f5429d7570ec1fa436f1986fb1f00c3e0f43a589fe2bbcd22c3f/pytz-2025.2-py2.py3-none-any.whl",
+          "start": "2025-11-02T01:15:00",
+          "tzif_sha256": "e9ed07d7bee0c76a9d442d091ef1f01668fee7c4f26014c0a868b19fe6c18a95",
+          "utc_intervals": [
+            [
+              1762060500,
+              1762062300
+            ],
+            [
+              1762064100,
+              1762065900
+            ]
+          ],
+          "utc_seconds": 3600,
+          "witness": {
+            "changes": [
+              [
+                1762063200,
+                -18000
+              ]
+            ],
+            "initial": [
+              1741503600,
+              -14400
+            ]
+          },
+          "zone": "America/New_York"
+        },
+        "half-hour": {}
+      }
+    },
+    {
+      "label": "half-hour",
+      "hash": "0xa12e6d128bd7bdaaf2ade7cf428f8b3c2e163d5df0c52b060b716412d0a4aebd",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0xba3c62e1d19593463caee367473e3c0851ab0d9d",
+      "args": {
+        "method": "publish",
+        "args": [
+          "Australia/Lord_Howe",
+          "2025-04-06T01:40:00",
+          "2025-04-06T01:50:00"
+        ]
+      },
+      "error": null,
+      "projections": {
+        "gap": {
+          "archive_sha256": "5ddf76296dd8c44c26eb8f4b6f35488f3ccbf6fbbd7adee0b7262d43f0ec2f00",
+          "branches": [
+            {
+              "local": [
+                1741483800,
+                1741485600
+              ],
+              "offset": -18000,
+              "utc": [
+                1741501800,
+                1741503600
+              ]
+            },
+            {
+              "local": [
+                1741489200,
+                1741491000
+              ],
+              "offset": -14400,
+              "utc": [
+                1741503600,
+                1741505400
+              ]
+            }
+          ],
+          "end": "2025-03-09T03:30:00",
+          "local_pieces": [
+            [
+              1741483800,
+              1741485600,
+              1
+            ],
+            [
+              1741485600,
+              1741489200,
+              0
+            ],
+            [
+              1741489200,
+              1741491000,
+              1
+            ]
+          ],
+          "missing_seconds": 3600,
+          "repeated_seconds": 0,
+          "source": "https://files.pythonhosted.org/packages/81/c4/34e93fe5f5429d7570ec1fa436f1986fb1f00c3e0f43a589fe2bbcd22c3f/pytz-2025.2-py2.py3-none-any.whl",
+          "start": "2025-03-09T01:30:00",
+          "tzif_sha256": "e9ed07d7bee0c76a9d442d091ef1f01668fee7c4f26014c0a868b19fe6c18a95",
+          "utc_intervals": [
+            [
+              1741501800,
+              1741505400
+            ]
+          ],
+          "utc_seconds": 3600,
+          "witness": {
+            "changes": [
+              [
+                1741503600,
+                -14400
+              ]
+            ],
+            "initial": [
+              1730613600,
+              -18000
+            ]
+          },
+          "zone": "America/New_York"
+        },
+        "fold": {
+          "archive_sha256": "5ddf76296dd8c44c26eb8f4b6f35488f3ccbf6fbbd7adee0b7262d43f0ec2f00",
+          "branches": [
+            {
+              "local": [
+                1762046100,
+                1762047900
+              ],
+              "offset": -14400,
+              "utc": [
+                1762060500,
+                1762062300
+              ]
+            },
+            {
+              "local": [
+                1762046100,
+                1762047900
+              ],
+              "offset": -18000,
+              "utc": [
+                1762064100,
+                1762065900
+              ]
+            }
+          ],
+          "end": "2025-11-02T01:45:00",
+          "local_pieces": [
+            [
+              1762046100,
+              1762047900,
+              2
+            ]
+          ],
+          "missing_seconds": 0,
+          "repeated_seconds": 1800,
+          "source": "https://files.pythonhosted.org/packages/81/c4/34e93fe5f5429d7570ec1fa436f1986fb1f00c3e0f43a589fe2bbcd22c3f/pytz-2025.2-py2.py3-none-any.whl",
+          "start": "2025-11-02T01:15:00",
+          "tzif_sha256": "e9ed07d7bee0c76a9d442d091ef1f01668fee7c4f26014c0a868b19fe6c18a95",
+          "utc_intervals": [
+            [
+              1762060500,
+              1762062300
+            ],
+            [
+              1762064100,
+              1762065900
+            ]
+          ],
+          "utc_seconds": 3600,
+          "witness": {
+            "changes": [
+              [
+                1762063200,
+                -18000
+              ]
+            ],
+            "initial": [
+              1741503600,
+              -14400
+            ]
+          },
+          "zone": "America/New_York"
+        },
+        "half-hour": {
+          "archive_sha256": "5ddf76296dd8c44c26eb8f4b6f35488f3ccbf6fbbd7adee0b7262d43f0ec2f00",
+          "branches": [
+            {
+              "local": [
+                1743903600,
+                1743904200
+              ],
+              "offset": 39600,
+              "utc": [
+                1743864000,
+                1743864600
+              ]
+            },
+            {
+              "local": [
+                1743903600,
+                1743904200
+              ],
+              "offset": 37800,
+              "utc": [
+                1743865800,
+                1743866400
+              ]
+            }
+          ],
+          "end": "2025-04-06T01:50:00",
+          "local_pieces": [
+            [
+              1743903600,
+              1743904200,
+              2
+            ]
+          ],
+          "missing_seconds": 0,
+          "repeated_seconds": 600,
+          "source": "https://files.pythonhosted.org/packages/81/c4/34e93fe5f5429d7570ec1fa436f1986fb1f00c3e0f43a589fe2bbcd22c3f/pytz-2025.2-py2.py3-none-any.whl",
+          "start": "2025-04-06T01:40:00",
+          "tzif_sha256": "a323c5433991a963eb497b7da4d1d09848bf3ef5f5d64d9c9649f388e4bab9df",
+          "utc_intervals": [
+            [
+              1743864000,
+              1743864600
+            ],
+            [
+              1743865800,
+              1743866400
+            ]
+          ],
+          "utc_seconds": 1200,
+          "witness": {
+            "changes": [
+              [
+                1743865200,
+                37800
+              ]
+            ],
+            "initial": [
+              1728142200,
+              39600
+            ]
+          },
+          "zone": "Australia/Lord_Howe"
+        }
+      }
+    },
+    {
+      "label": "duplicate",
+      "hash": "0x24818560ab4791deb9fc1f8c53d844aad87539b19354767c5f4b645e66833158",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0x1be2acb8020dadb28b864e168f59d3abe48429e7",
+      "args": {
+        "method": "publish",
+        "args": [
+          "America/New_York",
+          "2025-11-02T01:15:00",
+          "2025-11-02T01:45:00"
+        ]
+      },
+      "error": "Civil interval already published",
+      "projections": {
+        "gap": {
+          "archive_sha256": "5ddf76296dd8c44c26eb8f4b6f35488f3ccbf6fbbd7adee0b7262d43f0ec2f00",
+          "branches": [
+            {
+              "local": [
+                1741483800,
+                1741485600
+              ],
+              "offset": -18000,
+              "utc": [
+                1741501800,
+                1741503600
+              ]
+            },
+            {
+              "local": [
+                1741489200,
+                1741491000
+              ],
+              "offset": -14400,
+              "utc": [
+                1741503600,
+                1741505400
+              ]
+            }
+          ],
+          "end": "2025-03-09T03:30:00",
+          "local_pieces": [
+            [
+              1741483800,
+              1741485600,
+              1
+            ],
+            [
+              1741485600,
+              1741489200,
+              0
+            ],
+            [
+              1741489200,
+              1741491000,
+              1
+            ]
+          ],
+          "missing_seconds": 3600,
+          "repeated_seconds": 0,
+          "source": "https://files.pythonhosted.org/packages/81/c4/34e93fe5f5429d7570ec1fa436f1986fb1f00c3e0f43a589fe2bbcd22c3f/pytz-2025.2-py2.py3-none-any.whl",
+          "start": "2025-03-09T01:30:00",
+          "tzif_sha256": "e9ed07d7bee0c76a9d442d091ef1f01668fee7c4f26014c0a868b19fe6c18a95",
+          "utc_intervals": [
+            [
+              1741501800,
+              1741505400
+            ]
+          ],
+          "utc_seconds": 3600,
+          "witness": {
+            "changes": [
+              [
+                1741503600,
+                -14400
+              ]
+            ],
+            "initial": [
+              1730613600,
+              -18000
+            ]
+          },
+          "zone": "America/New_York"
+        },
+        "fold": {
+          "archive_sha256": "5ddf76296dd8c44c26eb8f4b6f35488f3ccbf6fbbd7adee0b7262d43f0ec2f00",
+          "branches": [
+            {
+              "local": [
+                1762046100,
+                1762047900
+              ],
+              "offset": -14400,
+              "utc": [
+                1762060500,
+                1762062300
+              ]
+            },
+            {
+              "local": [
+                1762046100,
+                1762047900
+              ],
+              "offset": -18000,
+              "utc": [
+                1762064100,
+                1762065900
+              ]
+            }
+          ],
+          "end": "2025-11-02T01:45:00",
+          "local_pieces": [
+            [
+              1762046100,
+              1762047900,
+              2
+            ]
+          ],
+          "missing_seconds": 0,
+          "repeated_seconds": 1800,
+          "source": "https://files.pythonhosted.org/packages/81/c4/34e93fe5f5429d7570ec1fa436f1986fb1f00c3e0f43a589fe2bbcd22c3f/pytz-2025.2-py2.py3-none-any.whl",
+          "start": "2025-11-02T01:15:00",
+          "tzif_sha256": "e9ed07d7bee0c76a9d442d091ef1f01668fee7c4f26014c0a868b19fe6c18a95",
+          "utc_intervals": [
+            [
+              1762060500,
+              1762062300
+            ],
+            [
+              1762064100,
+              1762065900
+            ]
+          ],
+          "utc_seconds": 3600,
+          "witness": {
+            "changes": [
+              [
+                1762063200,
+                -18000
+              ]
+            ],
+            "initial": [
+              1741503600,
+              -14400
+            ]
+          },
+          "zone": "America/New_York"
+        },
+        "half-hour": {
+          "archive_sha256": "5ddf76296dd8c44c26eb8f4b6f35488f3ccbf6fbbd7adee0b7262d43f0ec2f00",
+          "branches": [
+            {
+              "local": [
+                1743903600,
+                1743904200
+              ],
+              "offset": 39600,
+              "utc": [
+                1743864000,
+                1743864600
+              ]
+            },
+            {
+              "local": [
+                1743903600,
+                1743904200
+              ],
+              "offset": 37800,
+              "utc": [
+                1743865800,
+                1743866400
+              ]
+            }
+          ],
+          "end": "2025-04-06T01:50:00",
+          "local_pieces": [
+            [
+              1743903600,
+              1743904200,
+              2
+            ]
+          ],
+          "missing_seconds": 0,
+          "repeated_seconds": 600,
+          "source": "https://files.pythonhosted.org/packages/81/c4/34e93fe5f5429d7570ec1fa436f1986fb1f00c3e0f43a589fe2bbcd22c3f/pytz-2025.2-py2.py3-none-any.whl",
+          "start": "2025-04-06T01:40:00",
+          "tzif_sha256": "a323c5433991a963eb497b7da4d1d09848bf3ef5f5d64d9c9649f388e4bab9df",
+          "utc_intervals": [
+            [
+              1743864000,
+              1743864600
+            ],
+            [
+              1743865800,
+              1743866400
+            ]
+          ],
+          "utc_seconds": 1200,
+          "witness": {
+            "changes": [
+              [
+                1743865200,
+                37800
+              ]
+            ],
+            "initial": [
+              1728142200,
+              39600
+            ]
+          },
+          "zone": "Australia/Lord_Howe"
+        }
+      }
+    }
+  ],
+  "projections": {
+    "gap": {
+      "archive_sha256": "5ddf76296dd8c44c26eb8f4b6f35488f3ccbf6fbbd7adee0b7262d43f0ec2f00",
+      "branches": [
+        {
+          "local": [
+            1741483800,
+            1741485600
+          ],
+          "offset": -18000,
+          "utc": [
+            1741501800,
+            1741503600
+          ]
+        },
+        {
+          "local": [
+            1741489200,
+            1741491000
+          ],
+          "offset": -14400,
+          "utc": [
+            1741503600,
+            1741505400
+          ]
+        }
+      ],
+      "end": "2025-03-09T03:30:00",
+      "local_pieces": [
+        [
+          1741483800,
+          1741485600,
+          1
+        ],
+        [
+          1741485600,
+          1741489200,
+          0
+        ],
+        [
+          1741489200,
+          1741491000,
+          1
+        ]
+      ],
+      "missing_seconds": 3600,
+      "repeated_seconds": 0,
+      "source": "https://files.pythonhosted.org/packages/81/c4/34e93fe5f5429d7570ec1fa436f1986fb1f00c3e0f43a589fe2bbcd22c3f/pytz-2025.2-py2.py3-none-any.whl",
+      "start": "2025-03-09T01:30:00",
+      "tzif_sha256": "e9ed07d7bee0c76a9d442d091ef1f01668fee7c4f26014c0a868b19fe6c18a95",
+      "utc_intervals": [
+        [
+          1741501800,
+          1741505400
+        ]
+      ],
+      "utc_seconds": 3600,
+      "witness": {
+        "changes": [
+          [
+            1741503600,
+            -14400
+          ]
+        ],
+        "initial": [
+          1730613600,
+          -18000
+        ]
+      },
+      "zone": "America/New_York"
+    },
+    "fold": {
+      "archive_sha256": "5ddf76296dd8c44c26eb8f4b6f35488f3ccbf6fbbd7adee0b7262d43f0ec2f00",
+      "branches": [
+        {
+          "local": [
+            1762046100,
+            1762047900
+          ],
+          "offset": -14400,
+          "utc": [
+            1762060500,
+            1762062300
+          ]
+        },
+        {
+          "local": [
+            1762046100,
+            1762047900
+          ],
+          "offset": -18000,
+          "utc": [
+            1762064100,
+            1762065900
+          ]
+        }
+      ],
+      "end": "2025-11-02T01:45:00",
+      "local_pieces": [
+        [
+          1762046100,
+          1762047900,
+          2
+        ]
+      ],
+      "missing_seconds": 0,
+      "repeated_seconds": 1800,
+      "source": "https://files.pythonhosted.org/packages/81/c4/34e93fe5f5429d7570ec1fa436f1986fb1f00c3e0f43a589fe2bbcd22c3f/pytz-2025.2-py2.py3-none-any.whl",
+      "start": "2025-11-02T01:15:00",
+      "tzif_sha256": "e9ed07d7bee0c76a9d442d091ef1f01668fee7c4f26014c0a868b19fe6c18a95",
+      "utc_intervals": [
+        [
+          1762060500,
+          1762062300
+        ],
+        [
+          1762064100,
+          1762065900
+        ]
+      ],
+      "utc_seconds": 3600,
+      "witness": {
+        "changes": [
+          [
+            1762063200,
+            -18000
+          ]
+        ],
+        "initial": [
+          1741503600,
+          -14400
+        ]
+      },
+      "zone": "America/New_York"
+    },
+    "half-hour": {
+      "archive_sha256": "5ddf76296dd8c44c26eb8f4b6f35488f3ccbf6fbbd7adee0b7262d43f0ec2f00",
+      "branches": [
+        {
+          "local": [
+            1743903600,
+            1743904200
+          ],
+          "offset": 39600,
+          "utc": [
+            1743864000,
+            1743864600
+          ]
+        },
+        {
+          "local": [
+            1743903600,
+            1743904200
+          ],
+          "offset": 37800,
+          "utc": [
+            1743865800,
+            1743866400
+          ]
+        }
+      ],
+      "end": "2025-04-06T01:50:00",
+      "local_pieces": [
+        [
+          1743903600,
+          1743904200,
+          2
+        ]
+      ],
+      "missing_seconds": 0,
+      "repeated_seconds": 600,
+      "source": "https://files.pythonhosted.org/packages/81/c4/34e93fe5f5429d7570ec1fa436f1986fb1f00c3e0f43a589fe2bbcd22c3f/pytz-2025.2-py2.py3-none-any.whl",
+      "start": "2025-04-06T01:40:00",
+      "tzif_sha256": "a323c5433991a963eb497b7da4d1d09848bf3ef5f5d64d9c9649f388e4bab9df",
+      "utc_intervals": [
+        [
+          1743864000,
+          1743864600
+        ],
+        [
+          1743865800,
+          1743866400
+        ]
+      ],
+      "utc_seconds": 1200,
+      "witness": {
+        "changes": [
+          [
+            1743865200,
+            37800
+          ]
+        ],
+        "initial": [
+          1728142200,
+          39600
+        ]
+      },
+      "zone": "Australia/Lord_Howe"
+    }
+  }
+}
